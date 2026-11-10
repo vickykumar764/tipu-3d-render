@@ -1,0 +1,137 @@
+# Tipu mix cues
+
+Voice: -21.1 LUFS integrated. Music target -14.0 dB vs voice, SFX target -10.0 dB vs voice.
+Final mix: -14.1 LUFS integrated, true peak -1.20 dBTP, LRA 1.8 LU.
+
+## Music sections
+
+- hook 0.00-8.13 s: voice -20.5 LUFS, music -34.6 LUFS (gain -15.9 dB), sfx -30.5 LUFS (gain -11.1 dB)
+- setting 8.13-16.94 s: voice -20.5 LUFS, music -34.5 LUFS (gain -8.0 dB), sfx -30.5 LUFS (gain -11.5 dB)
+- battle 16.94-33.84 s: voice -21.2 LUFS, music -35.2 LUFS (gain -15.3 dB), sfx -31.2 LUFS (gain -24.1 dB)
+- defeat 33.84-37.63 s: voice -21.5 LUFS, music -35.5 LUFS (gain -17.0 dB), sfx -31.5 LUFS (gain -13.6 dB)
+- tipu 37.63-40.54 s: voice -21.3 LUFS, music -41.2 LUFS (gain -21.4 dB), sfx -31.4 LUFS (gain -4.1 dB)
+- pivot 40.54-46.35 s: voice -21.3 LUFS, music -35.4 LUFS (gain -13.7 dB), sfx -31.3 LUFS (gain -10.9 dB)
+- iron 46.35-54.02 s: voice -20.6 LUFS, music -34.6 LUFS (gain -13.2 dB), sfx -30.6 LUFS (gain -18.9 dB)
+- cooker 54.02-62.38 s: voice -21.2 LUFS, music -35.2 LUFS (gain -14.9 dB), sfx -31.2 LUFS (gain -16.4 dB)
+- deadpan 62.38-72.80 s: voice -21.0 LUFS, music -35.1 LUFS (gain -13.8 dB), sfx -31.0 LUFS (gain -24.1 dB)
+- fall1799 72.80-78.19 s: voice -20.6 LUFS, music -40.6 LUFS (gain -21.9 dB), sfx -30.9 LUFS (gain -8.9 dB)
+- congreve 78.19-83.73 s: voice -21.8 LUFS, music -41.8 LUFS (gain -16.8 dB), sfx -31.8 LUFS (gain -5.1 dB)
+- anthem 83.73-92.40 s: voice -21.7 LUFS, music -35.7 LUFS (gain -16.7 dB), sfx -31.7 LUFS (gain -6.3 dB)
+
+## Music cues
+
+-   0.00 s  hook: theme A1-A2 tutti, 7 whistlers, tuba/after-beats/snare; snare fill 3.0-3.6
+-   7.53 s  short dip on the white flash after the hook (frame 226)
+-   8.00 s  setting: theme A3-A6 light (glock + fife, tuba on 1/3, light snare)
+-  17.00 s  battle: forte march A3-A8, snare drive, roll into 30.17, Bb stab + clash ON the explosion
+-  34.00 s  defeat: triumphant theme A1-A2, 5 whistlers — Mysore wins
+-  37.70 s  tipu reveal: warm pad Bb - F7, solo fife theme, vibes; no drums (the king steps out)
+-  40.60 s  pivot: swung theme A1-A2, 3 whistlers, soft band (Europe's paper rocket)
+-  46.40 s  iron: full band theme A3-A6, tuba bouncing octaves from 50.0 as the rocket flies 2 km
+-  54.10 s  cooker: swung theme A1-A2, 3 whistlers, soft band (the pressure-cooker analogy)
+-  62.40 s  deadpan: one soft comic bar (the rocket that never hits), then forte build into the thousand rockets
+-  72.90 s  fall 1799: somber pad Bb - F7, solo fife, vibes; no drums (Seringapatam falls)
+-  78.20 s  congreve: sparse glock + pad (the captured rocket on the Woolwich bench)
+-  83.80 s  anthem: tutti + 7 whistlers, theme A1-A2, final Bb chord at 91.0 — the rockets' red glare is Mysore's
+
+## SFX cues
+
+-   0.00 s [bed] amb_day (-14 dB): daytime Mysore air: breeze + sparrows (shots 1-9)
+-  37.60 s [bed] amb_golden (-16 dB): golden-hour calm: breeze, crickets (shot 10, Tipu reveal)
+-  40.50 s [bed] amb_day2 (-14 dB): daytime air returns: breeze + sparrows (shots 11-15)
+-  72.80 s [bed] amb_golden2 (-16 dB): golden-hour calm again (shot 16, 1799)
+-  78.20 s [bed] amb_night (-17 dB): night air over the harbour: soft breeze, crickets (shots 17-18)
+-   0.00 s [bed] flag_fort (-12 dB): tiger flag fluttering on the rampart (shot 1)
+-  83.70 s [bed] flag_mchenry (-13 dB): stars and stripes fluttering at night (shot 18)
+-  17.00 s [event] rocket (-3 dB): rocket 1/6 of wave 1 whistles up
+-  17.33 s [event] rocket (-3 dB): rocket 2/6 of wave 1 whistles up
+-  17.67 s [event] rocket (-3 dB): rocket 3/6 of wave 1 whistles up
+-  18.00 s [event] rocket (-3 dB): rocket 4/6 of wave 1 whistles up
+-  18.33 s [event] rocket (-3 dB): rocket 5/6 of wave 1 whistles up
+-  18.67 s [event] rocket (-3 dB): rocket 6/6 of wave 1 whistles up
+-  19.40 s [event] rocket (-3 dB): rocket 1/12 of wave 2 whistles up
+-  19.74 s [event] rocket (-3 dB): rocket 2/12 of wave 2 whistles up
+-  20.08 s [event] rocket (-3 dB): rocket 3/12 of wave 2 whistles up
+-  20.42 s [event] rocket (-3 dB): rocket 4/12 of wave 2 whistles up
+-  20.77 s [event] rocket (-3 dB): rocket 5/12 of wave 2 whistles up
+-  21.11 s [event] rocket (-3 dB): rocket 6/12 of wave 2 whistles up
+-  21.45 s [event] rocket (-3 dB): rocket 7/12 of wave 2 whistles up
+-  21.79 s [event] rocket (-3 dB): rocket 8/12 of wave 2 whistles up
+-  22.13 s [event] rocket (-3 dB): rocket 9/12 of wave 2 whistles up
+-  22.48 s [event] rocket (-3 dB): rocket 10/12 of wave 2 whistles up
+-  22.82 s [event] rocket (-3 dB): rocket 11/12 of wave 2 whistles up
+-  23.16 s [event] rocket (-3 dB): rocket 12/12 of wave 2 whistles up
+-  28.60 s [event] rocket_single (-1 dB): one rocket whistles down onto the tumbrils
+-  66.40 s [event] rocket (-3 dB): rocket 1/17 of wave 4 whistles up
+-  66.75 s [event] rocket (-3 dB): rocket 2/17 of wave 4 whistles up
+-  67.09 s [event] rocket (-3 dB): rocket 3/17 of wave 4 whistles up
+-  67.44 s [event] rocket (-3 dB): rocket 4/17 of wave 4 whistles up
+-  67.79 s [event] rocket (-3 dB): rocket 5/17 of wave 4 whistles up
+-  68.14 s [event] rocket (-3 dB): rocket 6/17 of wave 4 whistles up
+-  68.48 s [event] rocket (-3 dB): rocket 7/17 of wave 4 whistles up
+-  68.83 s [event] rocket (-3 dB): rocket 8/17 of wave 4 whistles up
+-  69.18 s [event] rocket (-3 dB): rocket 9/17 of wave 4 whistles up
+-  69.52 s [event] rocket (-3 dB): rocket 10/17 of wave 4 whistles up
+-  69.87 s [event] rocket (-3 dB): rocket 11/17 of wave 4 whistles up
+-  70.22 s [event] rocket (-3 dB): rocket 12/17 of wave 4 whistles up
+-  70.56 s [event] rocket (-3 dB): rocket 13/17 of wave 4 whistles up
+-  70.91 s [event] rocket (-3 dB): rocket 14/17 of wave 4 whistles up
+-  71.26 s [event] rocket (-3 dB): rocket 15/17 of wave 4 whistles up
+-  71.61 s [event] rocket (-3 dB): rocket 16/17 of wave 4 whistles up
+-  71.95 s [event] rocket (-3 dB): rocket 17/17 of wave 4 whistles up
+-  49.60 s [event] rocket_arc (-2 dB): one rocket whistles up in a high arc (the 2 km range demo)
+-  63.00 s [event] rocket_miss (-2 dB): one rocket whistles past the column, harmlessly
+-  17.90 s [event] gasp (-4 dB): British soldiers gasp as the sky lights up
+-  18.10 s [event] babble_shock (-6 dB): shocked babble in the column
+-  29.57 s [event] tumbril_hit (-2 dB): the rocket lands on the ammunition carts: wood crack + thud
+-  29.57 s [event] tumbril_thud (-5 dB): the cart shudders
+-  30.17 s [event] explosion (+0 dB): the ammunition explodes: the biggest sound of the film
+-  30.52 s [event] explosion2 (-3 dB): secondary blast as the second cart goes up
+-  30.17 s [event] debris (-6 dB): debris and splinters rain down
+-  34.90 s [event] cheer (-3 dB): Mysore soldiers cheer the victory
+-  35.00 s [event] hurrah (-6 dB): a 'hurrah!' from the Mysore line
+-  35.90 s [event] hurrah (-6 dB): a 'hurrah!' from the Mysore line
+-  36.80 s [event] hurrah (-6 dB): a 'hurrah!' from the Mysore line
+-  44.30 s [event] paper_burst (-4 dB): the European paper rocket bursts under pressure: small pop + tear
+-  44.30 s [event] paper_tear (-6 dB): paper tearing
+-  55.20 s [event] cooker1 (-5 dB): the cooker whistles
+-  58.60 s [event] cooker2 (-6 dB): the cooker whistles again
+-   8.20 s [event] step_column (-8 dB): redcoat boots marching (8.2 s)
+-   8.70 s [event] step_column (-8 dB): redcoat boots marching (8.7 s)
+-   9.20 s [event] step_column (-8 dB): redcoat boots marching (9.2 s)
+-   9.70 s [event] step_column (-8 dB): redcoat boots marching (9.7 s)
+-  10.20 s [event] step_column (-8 dB): redcoat boots marching (10.2 s)
+-  10.70 s [event] step_column (-8 dB): redcoat boots marching (10.7 s)
+-  11.20 s [event] step_column (-8 dB): redcoat boots marching (11.2 s)
+-  11.70 s [event] step_column (-8 dB): redcoat boots marching (11.7 s)
+-  12.20 s [event] step_column (-8 dB): redcoat boots marching (12.2 s)
+-  12.70 s [event] step_column (-8 dB): redcoat boots marching (12.7 s)
+-  13.20 s [event] step_column (-8 dB): redcoat boots marching (13.2 s)
+-  13.70 s [event] step_column (-8 dB): redcoat boots marching (13.7 s)
+-  14.20 s [event] step_column (-8 dB): redcoat boots marching (14.2 s)
+-  14.70 s [event] step_column (-8 dB): redcoat boots marching (14.7 s)
+-  15.20 s [event] step_column (-8 dB): redcoat boots marching (15.2 s)
+-  15.70 s [event] step_column (-8 dB): redcoat boots marching (15.7 s)
+-  16.20 s [event] step_column (-8 dB): redcoat boots marching (16.2 s)
+-  16.70 s [event] step_column (-8 dB): redcoat boots marching (16.7 s)
+-  34.00 s [event] step_retreat (-8 dB): retreating boots, faster (34.0 s)
+-  34.55 s [event] step_retreat (-8 dB): retreating boots, faster (34.5 s)
+-  35.10 s [event] step_retreat (-8 dB): retreating boots, faster (35.1 s)
+-  35.65 s [event] step_retreat (-8 dB): retreating boots, faster (35.6 s)
+-  36.20 s [event] step_retreat (-8 dB): retreating boots, faster (36.2 s)
+-  36.75 s [event] step_retreat (-8 dB): retreating boots, faster (36.7 s)
+-  37.30 s [event] step_retreat (-8 dB): retreating boots, faster (37.3 s)
+-  73.00 s [event] step_carry (-9 dB): crates carried to the ship (73.0 s)
+-  73.55 s [event] step_carry (-9 dB): crates carried to the ship (73.5 s)
+-  74.10 s [event] step_carry (-9 dB): crates carried to the ship (74.1 s)
+-  74.65 s [event] step_carry (-9 dB): crates carried to the ship (74.6 s)
+-  75.20 s [event] step_carry (-9 dB): crates carried to the ship (75.2 s)
+-  75.75 s [event] step_carry (-9 dB): crates carried to the ship (75.7 s)
+-  76.30 s [event] step_carry (-9 dB): crates carried to the ship (76.3 s)
+-  76.85 s [event] step_carry (-9 dB): crates carried to the ship (76.8 s)
+-  77.40 s [event] step_carry (-9 dB): crates carried to the ship (77.4 s)
+-  81.50 s [event] glare_boom (-8 dB): distant boom under the red glare (81.5 s)
+-  83.80 s [event] glare_boom (-8 dB): distant boom under the red glare (83.8 s)
+-  86.20 s [event] glare_boom (-8 dB): distant boom under the red glare (86.2 s)
+-  88.60 s [event] glare_boom (-8 dB): distant boom under the red glare (88.6 s)
+-  90.40 s [event] glare_boom (-8 dB): distant boom under the red glare (90.4 s)
