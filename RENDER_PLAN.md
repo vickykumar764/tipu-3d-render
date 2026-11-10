@@ -24,19 +24,32 @@
   EffectPass (bloom + NEUTRAL tone + grade), MSAA 4, HalfFloat. **Do NOT use the `<EffectComposer>` wrapper
   in render mode in any project.**
 
-## Render (GitHub Actions, repo tipu-3d-render)
-- Speed test FIRST: `.github/workflows/render-speed-test.yml` (10 frames, prints SECONDS_PER_FRAME,
-  blank check via ffmpeg signalstats, uploads the clip). Run from the Actions tab.
+## Render (GitHub Actions, repo tipu-3d-render) — STILLS METHOD (2026-11-10)
+- Speed test FIRST: `.github/workflows/render-speed-test.yml` (10 frames, prints STILLS_DONE +
+  RENDER_SECONDS + SECONDS_PER_FRAME, blank check via ffmpeg signalstats, uploads the clip).
+  Run from the Actions tab.
 - Full render: `.github/workflows/render.yml` — 20 parallel jobs, 139 frames/job
   (shard 19: 2641-2772, 132 frames). Each uploads `part-N.mp4` (retention 1 day).
-## Measured speed (Manjhi re-run, 2026-11-10 ~11:13 IST — the same stack, PostDriver)
-- Speed test: 10/10 frames, 1080x1920, 30 fps, **6.1 s/frame** (61 s total; first run 6.8).
-  Full 2,773-frame Tipu render on 20 jobs = 139 frames/job x 6.1 s/frame ≈ **14 min wall**.
-- CAVEAT: Manjhi's frames 1-9 showed a TILING defect in video mode (mountain/sky repeats 5x
-  vertically + vertical seam) while frame 0 was good; the fix subagent is investigating.
-  Tipu's STILLS show no tiling, but stills cannot rule out a video-mode-only defect — the
-  Tipu speed-test 10-frame clip must be checked frame by frame for tiling before the full run.
-- Scaling if the speed test is slower: ~30 s/frame -> ~70 min; ~100 s/frame -> ~4 h.
+- RENDER METHOD: stills, NOT `remotion render`. Each frame is rendered as a still (fresh browser
+  page) by `scripts/tipu-render-shard.mjs` (300 s readiness timeout per still, JPEG q90, scale 1.0)
+  and encoded to mp4 with ffmpeg (30 fps, h264, crf 16). Same proven script family as Manjhi's
+  `manjhi-render-shard.mjs` and Ancient Jar's `jar-render-shard.mjs`.
+
+## Speed test (Tipu, 2026-11-10) — video mode FAILED the frame check
+- Run 42780616860: 10/10 frames, 1080x1920, 30 fps, **7.0 s/frame** (70 s total), run 4m 29s.
+  But frames 0-1 were the correct fort hook while frames 2-9 were ALL the same flat blue sky tiled
+  ~5x vertically + vertical seam at ~72% width (fort/dome/flag/characters gone) — the SAME
+  Chrome/SwiftShader compositor tiling defect as Manjhi (video-mode `remotion render` re-presents a
+  region of the WebGL canvas for frames 2+; here the repeated tile was the top-left sky). The stills
+  method (this fix) is the cure; the new speed test must prove every frame clean before the full run.
+- Expected stills cost on Actions: ~15-25 s/frame (ESTIMATE, unmeasured) → a 139-frame shard takes
+  ~35-60 min — well within the 6 h job limit. The speed test must measure the real number.
+- Kenney GLBs: 15 of 26 on disk under `public/bridge/kenney/` (Nature Kit, CC0 — 5 trees, 3 bushes,
+  3 flowers, grass, grass_large, lily_large, canoe; all valid glTF 2.0). The other 11 are not files
+  and never will be (11 veg names are procedural via the VEG map; banners are painted cloth;
+  lantern/cart/stall-*/windmill do not exist in Kenney's catalog). The Kenney 404s in the first
+  speed-test log were cosmetic (frames 0-1 rendered fine without any GLBs). loadKit() has an 8 s
+  Promise.race fallback so a hung fetch can never block the render.
 - After all 20 jobs: download the 20 `part-N` artifacts, run `scripts/merge-parts.sh` locally
   (concat -> mux audio/mix.wav -> QA via scripts/short_qa.py shots.json).
 - The repo does NOT contain voice.wav/mix.wav (mux is local); the render needs only the code.

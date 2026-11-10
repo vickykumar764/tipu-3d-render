@@ -17,6 +17,20 @@ import { FPS, D0, SHOTS, camAt, tipuState, ROCKET_WAVES, BLAST_T0, BLAST_DUR, TU
   WOOLWICH_AT, MCHENRY_AT, V3, FOREGROUND, ShotDef } from "./story";
 
 // ---------------- assets ----------------
+// NOTE: 15 of these GLBs are on disk under public/bridge/kenney/ (Kenney Nature Kit, CC0 — the 5 trees,
+// 3 bushes, 3 flowers, grass, grass_large, lily_large, canoe). The other 11 are NOT files and never
+// will be: the 11 veg names (tree_oak/tree_default/tree_detailed/tree_fat/tree_cone/tree-high-round/
+// tree/plant_bushLarge/plant_bushDetailed/plant_bush/hedge) are drawn as cartoon geometry by build.ts
+// prop()/kitClone() (VEG map, checked BEFORE the kit), banner-red/green are painted cloth, and
+// lantern / cart / stall-red / stall-green / stall-bench / windmill do not exist in Kenney's catalog
+// under those filenames (checked across 8 kits) — prop() silently omits them, so the market lacks
+// stalls/cart and the lane lacks lanterns. So a missing GLB is always cosmetic: every load below fails
+// gracefully (per-file catch) and the world is complete either way. The 7 non-veg GLBs that CAN appear
+// (flowers in the meadow, lilies + canoes at the pond) render from the kit when present.
+// 2026-11-10: the Actions speed test (run 42780616860) "succeeded" at 7.0 s/frame in video mode but
+// frames 2-9 were all the same flat blue sky tiled ~5x (SwiftShader compositor defect — the top-left
+// sky region repeated, fort vanished). The workflows now render stills (scripts/tipu-render-shard.mjs).
+// This loader is hardened anyway: a hung fetch can NEVER block the render (see the 8 s race below).
 const KENNEY = ["tree_oak", "tree_default", "tree_detailed", "tree_fat", "tree_cone", "tree-high-round", "tree", "plant_bushLarge", "plant_bushDetailed",
   "plant_bush", "hedge", "flower_redA", "flower_yellowA", "flower_purpleA", "grass_large", "grass", "lily_large", "lantern", "cart", "stall-red",
   "stall-green", "stall-bench", "banner-red", "banner-green", "windmill", "canoe"];
@@ -24,8 +38,15 @@ let kitP: Promise<Kit> | null = null;
 export const loadKit = () => {
   if (!kitP) {
     const loader = new GLTFLoader();
-    kitP = Promise.all(KENNEY.map((n) => loader.loadAsync(staticFile(`bridge/kenney/${n}.glb`)).then((g) => [n, g.scene] as const).catch(() => [n, null] as const)))
+    const loaded = Promise.all(KENNEY.map((n) => loader.loadAsync(staticFile(`bridge/kenney/${n}.glb`)).then((g) => [n, g.scene] as const).catch(() => [n, null] as const)))
       .then((list) => Object.fromEntries(list.filter((e) => e[1]).map(([n, s]) => [n, s!])) as Kit);
+    // Hard guarantee: whatever happens to a fetch, this promise settles. A healthy load is < 1 s
+    // and a 404 rejects immediately; if anything ever hangs, resolve with an empty kit after 8 s
+    // (the world is complete without the kit — see the NOTE above). Without this, a single hung
+    // fetch would leave the delayRender("tipu kit") handle open forever and Remotion's seek
+    // would time out after 33 s. The background loads keep running; their late result is ignored.
+    const fallback = new Promise<Kit>((resolve) => setTimeout(() => resolve({} as Kit), 8000));
+    kitP = Promise.race([loaded, fallback]);
   }
   return kitP;
 };

@@ -1,0 +1,1668 @@
+[
+ {
+  "word": "Ek",
+  "start": 0.0,
+  "end": 0.147,
+  "f": 0,
+  "line": 1
+ },
+ {
+  "word": "Indian",
+  "start": 0.167,
+  "end": 0.607,
+  "f": 5,
+  "line": 1
+ },
+ {
+  "word": "raja",
+  "start": 0.627,
+  "end": 0.921,
+  "f": 19,
+  "line": 1
+ },
+ {
+  "word": "ki",
+  "start": 0.941,
+  "end": 1.088,
+  "f": 28,
+  "line": 1
+ },
+ {
+  "word": "rocket",
+  "start": 1.108,
+  "end": 1.548,
+  "f": 33,
+  "line": 1
+ },
+ {
+  "word": "ne",
+  "start": 1.568,
+  "end": 1.715,
+  "f": 47,
+  "line": 1
+ },
+ {
+  "word": "angrezon",
+  "start": 1.735,
+  "end": 2.322,
+  "f": 52,
+  "line": 1
+ },
+ {
+  "word": "ko",
+  "start": 2.342,
+  "end": 2.489,
+  "f": 70,
+  "line": 1
+ },
+ {
+  "word": "hara",
+  "start": 2.509,
+  "end": 2.802,
+  "f": 75,
+  "line": 1
+ },
+ {
+  "word": "diya,",
+  "start": 2.822,
+  "end": 3.189,
+  "f": 85,
+  "line": 1
+ },
+ {
+  "word": "aur",
+  "start": 3.209,
+  "end": 3.865,
+  "f": 96,
+  "line": 1
+ },
+ {
+  "word": "phir",
+  "start": 3.885,
+  "end": 4.518,
+  "f": 117,
+  "line": 1
+ },
+ {
+  "word": "wahi",
+  "start": 4.538,
+  "end": 4.832,
+  "f": 136,
+  "line": 1
+ },
+ {
+  "word": "rocket",
+  "start": 4.852,
+  "end": 5.292,
+  "f": 146,
+  "line": 1
+ },
+ {
+  "word": "America",
+  "start": 5.312,
+  "end": 5.826,
+  "f": 159,
+  "line": 1
+ },
+ {
+  "word": "ke",
+  "start": 5.846,
+  "end": 5.993,
+  "f": 175,
+  "line": 1
+ },
+ {
+  "word": "national",
+  "start": 6.013,
+  "end": 6.6,
+  "f": 180,
+  "line": 1
+ },
+ {
+  "word": "anthem",
+  "start": 6.62,
+  "end": 7.06,
+  "f": 199,
+  "line": 1
+ },
+ {
+  "word": "mein",
+  "start": 7.08,
+  "end": 7.374,
+  "f": 212,
+  "line": 1
+ },
+ {
+  "word": "aa",
+  "start": 7.394,
+  "end": 7.408,
+  "f": 222,
+  "line": 1
+ },
+ {
+  "word": "gayi.",
+  "start": 7.408,
+  "end": 7.528,
+  "f": 222,
+  "line": 1
+ },
+ {
+  "word": "Saal",
+  "start": 8.14,
+  "end": 8.337,
+  "f": 244,
+  "line": 2
+ },
+ {
+  "word": "1780,",
+  "start": 8.357,
+  "end": 8.604,
+  "f": 251,
+  "line": 2
+ },
+ {
+  "word": "Pollilur,",
+  "start": 8.624,
+  "end": 9.069,
+  "f": 259,
+  "line": 2
+ },
+ {
+  "word": "Tamil",
+  "start": 9.089,
+  "end": 9.336,
+  "f": 273,
+  "line": 2
+ },
+ {
+  "word": "Nadu.",
+  "start": 9.356,
+  "end": 9.522,
+  "f": 281,
+  "line": 2
+ },
+ {
+  "word": "Colonel",
+  "start": 9.979,
+  "end": 10.517,
+  "f": 299,
+  "line": 3
+ },
+ {
+  "word": "Baillie",
+  "start": 10.537,
+  "end": 11.076,
+  "f": 316,
+  "line": 3
+ },
+ {
+  "word": "ki",
+  "start": 11.096,
+  "end": 11.787,
+  "f": 333,
+  "line": 3
+ },
+ {
+  "word": "British",
+  "start": 11.807,
+  "end": 12.346,
+  "f": 354,
+  "line": 3
+ },
+ {
+  "word": "fauj",
+  "start": 12.366,
+  "end": 12.673,
+  "f": 371,
+  "line": 3
+ },
+ {
+  "word": "aage",
+  "start": 12.693,
+  "end": 13.001,
+  "f": 381,
+  "line": 3
+ },
+ {
+  "word": "badh",
+  "start": 13.021,
+  "end": 13.329,
+  "f": 391,
+  "line": 3
+ },
+ {
+  "word": "rahi",
+  "start": 13.349,
+  "end": 13.656,
+  "f": 400,
+  "line": 3
+ },
+ {
+  "word": "thi,",
+  "start": 13.676,
+  "end": 13.984,
+  "f": 410,
+  "line": 3
+ },
+ {
+  "word": "unhe",
+  "start": 14.004,
+  "end": 14.834,
+  "f": 420,
+  "line": 3
+ },
+ {
+  "word": "lag",
+  "start": 14.854,
+  "end": 15.085,
+  "f": 446,
+  "line": 3
+ },
+ {
+  "word": "raha",
+  "start": 15.105,
+  "end": 15.413,
+  "f": 453,
+  "line": 3
+ },
+ {
+  "word": "tha",
+  "start": 15.433,
+  "end": 15.664,
+  "f": 463,
+  "line": 3
+ },
+ {
+  "word": "jeet",
+  "start": 15.684,
+  "end": 15.991,
+  "f": 471,
+  "line": 3
+ },
+ {
+  "word": "pakki",
+  "start": 16.011,
+  "end": 16.396,
+  "f": 480,
+  "line": 3
+ },
+ {
+  "word": "hai.",
+  "start": 16.416,
+  "end": 16.424,
+  "f": 492,
+  "line": 3
+ },
+ {
+  "word": "Tab",
+  "start": 16.936,
+  "end": 17.165,
+  "f": 508,
+  "line": 4
+ },
+ {
+  "word": "aasmaan",
+  "start": 17.185,
+  "end": 17.72,
+  "f": 516,
+  "line": 4
+ },
+ {
+  "word": "se",
+  "start": 17.74,
+  "end": 17.893,
+  "f": 532,
+  "line": 4
+ },
+ {
+  "word": "aag",
+  "start": 17.913,
+  "end": 18.142,
+  "f": 537,
+  "line": 4
+ },
+ {
+  "word": "barasne",
+  "start": 18.162,
+  "end": 18.697,
+  "f": 545,
+  "line": 4
+ },
+ {
+  "word": "lagi.",
+  "start": 18.717,
+  "end": 19.0,
+  "f": 562,
+  "line": 4
+ },
+ {
+  "word": "Hazaaron",
+  "start": 19.438,
+  "end": 20.035,
+  "f": 583,
+  "line": 5
+ },
+ {
+  "word": "rocket,",
+  "start": 20.055,
+  "end": 20.578,
+  "f": 602,
+  "line": 5
+ },
+ {
+  "word": "seetiyaan",
+  "start": 20.598,
+  "end": 21.27,
+  "f": 618,
+  "line": 5
+ },
+ {
+  "word": "bajate",
+  "start": 21.29,
+  "end": 21.738,
+  "f": 639,
+  "line": 5
+ },
+ {
+  "word": "hue,",
+  "start": 21.758,
+  "end": 22.056,
+  "f": 653,
+  "line": 5
+ },
+ {
+  "word": "unke",
+  "start": 22.076,
+  "end": 22.375,
+  "f": 662,
+  "line": 5
+ },
+ {
+  "word": "upar",
+  "start": 22.395,
+  "end": 22.694,
+  "f": 672,
+  "line": 5
+ },
+ {
+  "word": "gir",
+  "start": 22.714,
+  "end": 22.938,
+  "f": 681,
+  "line": 5
+ },
+ {
+  "word": "rahi",
+  "start": 22.958,
+  "end": 23.256,
+  "f": 689,
+  "line": 5
+ },
+ {
+  "word": "thin.",
+  "start": 23.276,
+  "end": 23.47,
+  "f": 698,
+  "line": 5
+ },
+ {
+  "word": "Angrez",
+  "start": 23.93,
+  "end": 24.256,
+  "f": 718,
+  "line": 6
+ },
+ {
+  "word": "samajh",
+  "start": 24.276,
+  "end": 24.603,
+  "f": 728,
+  "line": 6
+ },
+ {
+  "word": "hi",
+  "start": 24.623,
+  "end": 24.732,
+  "f": 739,
+  "line": 6
+ },
+ {
+  "word": "nahi",
+  "start": 24.752,
+  "end": 24.969,
+  "f": 743,
+  "line": 6
+ },
+ {
+  "word": "paaye,",
+  "start": 24.989,
+  "end": 25.628,
+  "f": 750,
+  "line": 6
+ },
+ {
+  "word": "ye",
+  "start": 25.648,
+  "end": 25.757,
+  "f": 769,
+  "line": 6
+ },
+ {
+  "word": "hathiyaar",
+  "start": 25.777,
+  "end": 26.266,
+  "f": 773,
+  "line": 6
+ },
+ {
+  "word": "hai",
+  "start": 26.286,
+  "end": 26.449,
+  "f": 789,
+  "line": 6
+ },
+ {
+  "word": "kya.",
+  "start": 26.469,
+  "end": 26.527,
+  "f": 794,
+  "line": 6
+ },
+ {
+  "word": "Phir",
+  "start": 27.002,
+  "end": 27.295,
+  "f": 810,
+  "line": 7
+ },
+ {
+  "word": "ek",
+  "start": 27.315,
+  "end": 27.461,
+  "f": 819,
+  "line": 7
+ },
+ {
+  "word": "rocket",
+  "start": 27.481,
+  "end": 27.919,
+  "f": 824,
+  "line": 7
+ },
+ {
+  "word": "unke",
+  "start": 27.939,
+  "end": 28.231,
+  "f": 838,
+  "line": 7
+ },
+ {
+  "word": "barood",
+  "start": 28.251,
+  "end": 28.689,
+  "f": 848,
+  "line": 7
+ },
+ {
+  "word": "ke",
+  "start": 28.709,
+  "end": 28.855,
+  "f": 861,
+  "line": 7
+ },
+ {
+  "word": "bhandar",
+  "start": 28.875,
+  "end": 29.386,
+  "f": 866,
+  "line": 7
+ },
+ {
+  "word": "par",
+  "start": 29.406,
+  "end": 29.625,
+  "f": 882,
+  "line": 7
+ },
+ {
+  "word": "giri.",
+  "start": 29.645,
+  "end": 29.851,
+  "f": 889,
+  "line": 7
+ },
+ {
+  "word": "Dhamaaka",
+  "start": 30.251,
+  "end": 30.905,
+  "f": 908,
+  "line": 8
+ },
+ {
+  "word": "itna",
+  "start": 30.925,
+  "end": 31.252,
+  "f": 928,
+  "line": 8
+ },
+ {
+  "word": "bada",
+  "start": 31.272,
+  "end": 31.599,
+  "f": 938,
+  "line": 8
+ },
+ {
+  "word": "tha",
+  "start": 31.619,
+  "end": 31.864,
+  "f": 949,
+  "line": 8
+ },
+ {
+  "word": "ki",
+  "start": 31.884,
+  "end": 32.047,
+  "f": 957,
+  "line": 8
+ },
+ {
+  "word": "poori",
+  "start": 32.067,
+  "end": 32.476,
+  "f": 962,
+  "line": 8
+ },
+ {
+  "word": "fauj",
+  "start": 32.496,
+  "end": 32.823,
+  "f": 975,
+  "line": 8
+ },
+ {
+  "word": "hil",
+  "start": 32.843,
+  "end": 33.088,
+  "f": 985,
+  "line": 8
+ },
+ {
+  "word": "gayi.",
+  "start": 33.108,
+  "end": 33.357,
+  "f": 993,
+  "line": 8
+ },
+ {
+  "word": "Baillie",
+  "start": 33.838,
+  "end": 34.35,
+  "f": 1015,
+  "line": 9
+ },
+ {
+  "word": "ki",
+  "start": 34.37,
+  "end": 34.516,
+  "f": 1031,
+  "line": 9
+ },
+ {
+  "word": "fauj",
+  "start": 34.536,
+  "end": 34.829,
+  "f": 1036,
+  "line": 9
+ },
+ {
+  "word": "haar",
+  "start": 34.849,
+  "end": 35.142,
+  "f": 1045,
+  "line": 9
+ },
+ {
+  "word": "gayi,",
+  "start": 35.162,
+  "end": 35.94,
+  "f": 1055,
+  "line": 9
+ },
+ {
+  "word": "aur",
+  "start": 35.96,
+  "end": 36.18,
+  "f": 1079,
+  "line": 9
+ },
+ {
+  "word": "Mysore",
+  "start": 36.2,
+  "end": 36.639,
+  "f": 1086,
+  "line": 9
+ },
+ {
+  "word": "jeet",
+  "start": 36.659,
+  "end": 36.951,
+  "f": 1100,
+  "line": 9
+ },
+ {
+  "word": "gaya.",
+  "start": 36.971,
+  "end": 37.177,
+  "f": 1109,
+  "line": 9
+ },
+ {
+  "word": "Ye",
+  "start": 37.634,
+  "end": 37.785,
+  "f": 1129,
+  "line": 10
+ },
+ {
+  "word": "rocket",
+  "start": 37.805,
+  "end": 38.26,
+  "f": 1134,
+  "line": 10
+ },
+ {
+  "word": "banayi",
+  "start": 38.28,
+  "end": 38.735,
+  "f": 1148,
+  "line": 10
+ },
+ {
+  "word": "thi",
+  "start": 38.755,
+  "end": 38.982,
+  "f": 1163,
+  "line": 10
+ },
+ {
+  "word": "Tipu",
+  "start": 39.002,
+  "end": 39.306,
+  "f": 1170,
+  "line": 10
+ },
+ {
+  "word": "Sultan",
+  "start": 39.326,
+  "end": 39.78,
+  "f": 1180,
+  "line": 10
+ },
+ {
+  "word": "ne.",
+  "start": 39.8,
+  "end": 39.908,
+  "f": 1194,
+  "line": 10
+ },
+ {
+  "word": "Dekhiye,",
+  "start": 40.541,
+  "end": 41.09,
+  "f": 1216,
+  "line": 11
+ },
+ {
+  "word": "Europe",
+  "start": 41.11,
+  "end": 41.521,
+  "f": 1233,
+  "line": 11
+ },
+ {
+  "word": "ki",
+  "start": 41.541,
+  "end": 41.678,
+  "f": 1246,
+  "line": 11
+ },
+ {
+  "word": "rocket",
+  "start": 41.698,
+  "end": 42.109,
+  "f": 1251,
+  "line": 11
+ },
+ {
+  "word": "kagaz",
+  "start": 42.129,
+  "end": 42.472,
+  "f": 1264,
+  "line": 11
+ },
+ {
+  "word": "aur",
+  "start": 42.492,
+  "end": 42.697,
+  "f": 1275,
+  "line": 11
+ },
+ {
+  "word": "lakdi",
+  "start": 42.717,
+  "end": 43.06,
+  "f": 1282,
+  "line": 11
+ },
+ {
+  "word": "ki",
+  "start": 43.08,
+  "end": 43.217,
+  "f": 1292,
+  "line": 11
+ },
+ {
+  "word": "banti",
+  "start": 43.237,
+  "end": 43.58,
+  "f": 1297,
+  "line": 11
+ },
+ {
+  "word": "thi,",
+  "start": 43.6,
+  "end": 44.255,
+  "f": 1308,
+  "line": 11
+ },
+ {
+  "word": "dabav",
+  "start": 44.275,
+  "end": 44.618,
+  "f": 1328,
+  "line": 11
+ },
+ {
+  "word": "badhte",
+  "start": 44.638,
+  "end": 45.049,
+  "f": 1339,
+  "line": 11
+ },
+ {
+  "word": "hi",
+  "start": 45.069,
+  "end": 45.206,
+  "f": 1352,
+  "line": 11
+ },
+ {
+  "word": "phat",
+  "start": 45.226,
+  "end": 45.5,
+  "f": 1357,
+  "line": 11
+ },
+ {
+  "word": "jaati",
+  "start": 45.52,
+  "end": 45.737,
+  "f": 1366,
+  "line": 11
+ },
+ {
+  "word": "thi.",
+  "start": 45.737,
+  "end": 45.857,
+  "f": 1372,
+  "line": 11
+ },
+ {
+  "word": "Tipu",
+  "start": 46.354,
+  "end": 46.675,
+  "f": 1391,
+  "line": 12
+ },
+ {
+  "word": "ki",
+  "start": 46.695,
+  "end": 46.856,
+  "f": 1401,
+  "line": 12
+ },
+ {
+  "word": "rocket",
+  "start": 46.876,
+  "end": 47.358,
+  "f": 1406,
+  "line": 12
+ },
+ {
+  "word": "lohe",
+  "start": 47.378,
+  "end": 47.699,
+  "f": 1421,
+  "line": 12
+ },
+ {
+  "word": "ki",
+  "start": 47.719,
+  "end": 47.88,
+  "f": 1432,
+  "line": 12
+ },
+ {
+  "word": "nali",
+  "start": 47.9,
+  "end": 48.222,
+  "f": 1437,
+  "line": 12
+ },
+ {
+  "word": "se",
+  "start": 48.242,
+  "end": 48.402,
+  "f": 1447,
+  "line": 12
+ },
+ {
+  "word": "banti",
+  "start": 48.422,
+  "end": 48.824,
+  "f": 1453,
+  "line": 12
+ },
+ {
+  "word": "thi,",
+  "start": 48.844,
+  "end": 49.51,
+  "f": 1465,
+  "line": 12
+ },
+ {
+  "word": "jo",
+  "start": 49.53,
+  "end": 49.691,
+  "f": 1486,
+  "line": 12
+ },
+ {
+  "word": "dabav",
+  "start": 49.711,
+  "end": 50.112,
+  "f": 1491,
+  "line": 12
+ },
+ {
+  "word": "ko",
+  "start": 50.132,
+  "end": 50.293,
+  "f": 1504,
+  "line": 12
+ },
+ {
+  "word": "sehti",
+  "start": 50.313,
+  "end": 50.715,
+  "f": 1509,
+  "line": 12
+ },
+ {
+  "word": "thi,",
+  "start": 50.735,
+  "end": 51.408,
+  "f": 1522,
+  "line": 12
+ },
+ {
+  "word": "isliye",
+  "start": 51.428,
+  "end": 51.91,
+  "f": 1543,
+  "line": 12
+ },
+ {
+  "word": "wo",
+  "start": 51.93,
+  "end": 52.091,
+  "f": 1558,
+  "line": 12
+ },
+ {
+  "word": "2",
+  "start": 52.111,
+  "end": 52.191,
+  "f": 1563,
+  "line": 12
+ },
+ {
+  "word": "kilometer",
+  "start": 52.211,
+  "end": 52.934,
+  "f": 1566,
+  "line": 12
+ },
+ {
+  "word": "tak",
+  "start": 52.954,
+  "end": 53.195,
+  "f": 1589,
+  "line": 12
+ },
+ {
+  "word": "jaati",
+  "start": 53.215,
+  "end": 53.438,
+  "f": 1596,
+  "line": 12
+ },
+ {
+  "word": "thi.",
+  "start": 53.438,
+  "end": 53.558,
+  "f": 1603,
+  "line": 12
+ },
+ {
+  "word": "Jaise",
+  "start": 54.017,
+  "end": 54.381,
+  "f": 1621,
+  "line": 13
+ },
+ {
+  "word": "pressure",
+  "start": 54.401,
+  "end": 54.983,
+  "f": 1632,
+  "line": 13
+ },
+ {
+  "word": "cooker",
+  "start": 55.003,
+  "end": 55.44,
+  "f": 1650,
+  "line": 13
+ },
+ {
+  "word": "kagaz",
+  "start": 55.46,
+  "end": 55.823,
+  "f": 1664,
+  "line": 13
+ },
+ {
+  "word": "ke",
+  "start": 55.843,
+  "end": 55.989,
+  "f": 1675,
+  "line": 13
+ },
+ {
+  "word": "dabbe",
+  "start": 56.009,
+  "end": 56.373,
+  "f": 1680,
+  "line": 13
+ },
+ {
+  "word": "se",
+  "start": 56.393,
+  "end": 56.538,
+  "f": 1692,
+  "line": 13
+ },
+ {
+  "word": "zyada",
+  "start": 56.558,
+  "end": 56.922,
+  "f": 1697,
+  "line": 13
+ },
+ {
+  "word": "taakat",
+  "start": 56.942,
+  "end": 57.379,
+  "f": 1708,
+  "line": 13
+ },
+ {
+  "word": "rakhta",
+  "start": 57.399,
+  "end": 58.132,
+  "f": 1722,
+  "line": 13
+ },
+ {
+  "word": "hai,",
+  "start": 58.152,
+  "end": 58.443,
+  "f": 1745,
+  "line": 13
+ },
+ {
+  "word": "waise",
+  "start": 58.463,
+  "end": 58.827,
+  "f": 1754,
+  "line": 13
+ },
+ {
+  "word": "hi",
+  "start": 58.847,
+  "end": 58.993,
+  "f": 1765,
+  "line": 13
+ },
+ {
+  "word": "lohe",
+  "start": 59.013,
+  "end": 59.304,
+  "f": 1770,
+  "line": 13
+ },
+ {
+  "word": "ki",
+  "start": 59.324,
+  "end": 59.469,
+  "f": 1780,
+  "line": 13
+ },
+ {
+  "word": "nali",
+  "start": 59.489,
+  "end": 59.781,
+  "f": 1785,
+  "line": 13
+ },
+ {
+  "word": "kagaz",
+  "start": 59.801,
+  "end": 60.164,
+  "f": 1794,
+  "line": 13
+ },
+ {
+  "word": "ki",
+  "start": 60.184,
+  "end": 60.33,
+  "f": 1806,
+  "line": 13
+ },
+ {
+  "word": "rocket",
+  "start": 60.35,
+  "end": 60.787,
+  "f": 1810,
+  "line": 13
+ },
+ {
+  "word": "se",
+  "start": 60.807,
+  "end": 60.952,
+  "f": 1824,
+  "line": 13
+ },
+ {
+  "word": "zyada",
+  "start": 60.972,
+  "end": 61.336,
+  "f": 1829,
+  "line": 13
+ },
+ {
+  "word": "door",
+  "start": 61.356,
+  "end": 61.647,
+  "f": 1841,
+  "line": 13
+ },
+ {
+  "word": "jaati",
+  "start": 61.667,
+  "end": 61.762,
+  "f": 1850,
+  "line": 13
+ },
+ {
+  "word": "thi.",
+  "start": 61.762,
+  "end": 61.882,
+  "f": 1853,
+  "line": 13
+ },
+ {
+  "word": "Achhi",
+  "start": 62.377,
+  "end": 62.729,
+  "f": 1871,
+  "line": 14
+ },
+ {
+  "word": "baat",
+  "start": 62.749,
+  "end": 63.03,
+  "f": 1882,
+  "line": 14
+ },
+ {
+  "word": "ye",
+  "start": 63.05,
+  "end": 63.19,
+  "f": 1891,
+  "line": 14
+ },
+ {
+  "word": "thi",
+  "start": 63.21,
+  "end": 63.421,
+  "f": 1896,
+  "line": 14
+ },
+ {
+  "word": "ki",
+  "start": 63.441,
+  "end": 63.581,
+  "f": 1903,
+  "line": 14
+ },
+ {
+  "word": "ek",
+  "start": 63.601,
+  "end": 63.742,
+  "f": 1908,
+  "line": 14
+ },
+ {
+  "word": "rocket",
+  "start": 63.762,
+  "end": 64.183,
+  "f": 1913,
+  "line": 14
+ },
+ {
+  "word": "ka",
+  "start": 64.203,
+  "end": 64.344,
+  "f": 1926,
+  "line": 14
+ },
+ {
+  "word": "nishana",
+  "start": 64.364,
+  "end": 64.855,
+  "f": 1931,
+  "line": 14
+ },
+ {
+  "word": "kabhi",
+  "start": 64.875,
+  "end": 65.227,
+  "f": 1946,
+  "line": 14
+ },
+ {
+  "word": "nahi",
+  "start": 65.247,
+  "end": 65.528,
+  "f": 1957,
+  "line": 14
+ },
+ {
+  "word": "lagta",
+  "start": 65.548,
+  "end": 65.899,
+  "f": 1966,
+  "line": 14
+ },
+ {
+  "word": "tha.",
+  "start": 65.919,
+  "end": 65.96,
+  "f": 1978,
+  "line": 14
+ },
+ {
+  "word": "Buri",
+  "start": 66.393,
+  "end": 66.669,
+  "f": 1992,
+  "line": 15
+ },
+ {
+  "word": "baat",
+  "start": 66.689,
+  "end": 66.966,
+  "f": 2001,
+  "line": 15
+ },
+ {
+  "word": "ye",
+  "start": 66.986,
+  "end": 67.124,
+  "f": 2010,
+  "line": 15
+ },
+ {
+  "word": "thi",
+  "start": 67.144,
+  "end": 67.352,
+  "f": 2014,
+  "line": 15
+ },
+ {
+  "word": "ki",
+  "start": 67.352,
+  "end": 67.802,
+  "f": 2021,
+  "line": 15
+ },
+ {
+  "word": "jab",
+  "start": 67.822,
+  "end": 68.029,
+  "f": 2035,
+  "line": 15
+ },
+ {
+  "word": "hazaar",
+  "start": 68.049,
+  "end": 68.464,
+  "f": 2041,
+  "line": 15
+ },
+ {
+  "word": "rocket",
+  "start": 68.484,
+  "end": 68.899,
+  "f": 2055,
+  "line": 15
+ },
+ {
+  "word": "ek",
+  "start": 68.919,
+  "end": 69.058,
+  "f": 2068,
+  "line": 15
+ },
+ {
+  "word": "saath",
+  "start": 69.078,
+  "end": 69.423,
+  "f": 2072,
+  "line": 15
+ },
+ {
+  "word": "aati",
+  "start": 69.443,
+  "end": 69.72,
+  "f": 2083,
+  "line": 15
+ },
+ {
+  "word": "hain,",
+  "start": 69.74,
+  "end": 70.399,
+  "f": 2092,
+  "line": 15
+ },
+ {
+  "word": "to",
+  "start": 70.419,
+  "end": 70.557,
+  "f": 2113,
+  "line": 15
+ },
+ {
+  "word": "nishana",
+  "start": 70.577,
+  "end": 71.061,
+  "f": 2117,
+  "line": 15
+ },
+ {
+  "word": "lagna",
+  "start": 71.081,
+  "end": 71.427,
+  "f": 2132,
+  "line": 15
+ },
+ {
+  "word": "zaroori",
+  "start": 71.447,
+  "end": 71.931,
+  "f": 2143,
+  "line": 15
+ },
+ {
+  "word": "nahi",
+  "start": 71.951,
+  "end": 72.228,
+  "f": 2159,
+  "line": 15
+ },
+ {
+  "word": "hota.",
+  "start": 72.248,
+  "end": 72.273,
+  "f": 2167,
+  "line": 15
+ },
+ {
+  "word": "1799",
+  "start": 72.802,
+  "end": 73.13,
+  "f": 2184,
+  "line": 16
+ },
+ {
+  "word": "mein",
+  "start": 73.15,
+  "end": 73.479,
+  "f": 2195,
+  "line": 16
+ },
+ {
+  "word": "Seringapatam",
+  "start": 73.499,
+  "end": 74.484,
+  "f": 2205,
+  "line": 16
+ },
+ {
+  "word": "gira,",
+  "start": 74.504,
+  "end": 74.914,
+  "f": 2235,
+  "line": 16
+ },
+ {
+  "word": "aur",
+  "start": 74.934,
+  "end": 75.181,
+  "f": 2248,
+  "line": 16
+ },
+ {
+  "word": "angrez",
+  "start": 75.201,
+  "end": 76.074,
+  "f": 2256,
+  "line": 16
+ },
+ {
+  "word": "ye",
+  "start": 76.094,
+  "end": 76.259,
+  "f": 2283,
+  "line": 16
+ },
+ {
+  "word": "rocket",
+  "start": 76.279,
+  "end": 76.771,
+  "f": 2288,
+  "line": 16
+ },
+ {
+  "word": "England",
+  "start": 76.791,
+  "end": 77.366,
+  "f": 2304,
+  "line": 16
+ },
+ {
+  "word": "le",
+  "start": 77.386,
+  "end": 77.55,
+  "f": 2322,
+  "line": 16
+ },
+ {
+  "word": "gaye.",
+  "start": 77.57,
+  "end": 77.781,
+  "f": 2327,
+  "line": 16
+ },
+ {
+  "word": "Wahan",
+  "start": 78.193,
+  "end": 78.559,
+  "f": 2346,
+  "line": 17
+ },
+ {
+  "word": "se",
+  "start": 78.579,
+  "end": 78.725,
+  "f": 2357,
+  "line": 17
+ },
+ {
+  "word": "ye",
+  "start": 78.745,
+  "end": 78.892,
+  "f": 2362,
+  "line": 17
+ },
+ {
+  "word": "Congreve",
+  "start": 78.912,
+  "end": 79.497,
+  "f": 2367,
+  "line": 17
+ },
+ {
+  "word": "rocket",
+  "start": 79.517,
+  "end": 79.955,
+  "f": 2385,
+  "line": 17
+ },
+ {
+  "word": "bani,",
+  "start": 79.975,
+  "end": 80.695,
+  "f": 2399,
+  "line": 17
+ },
+ {
+  "word": "aur",
+  "start": 80.715,
+  "end": 80.934,
+  "f": 2421,
+  "line": 17
+ },
+ {
+  "word": "1814",
+  "start": 80.954,
+  "end": 81.247,
+  "f": 2429,
+  "line": 17
+ },
+ {
+  "word": "mein",
+  "start": 81.267,
+  "end": 81.559,
+  "f": 2438,
+  "line": 17
+ },
+ {
+  "word": "America",
+  "start": 81.579,
+  "end": 82.373,
+  "f": 2447,
+  "line": 17
+ },
+ {
+  "word": "ke",
+  "start": 82.393,
+  "end": 82.54,
+  "f": 2472,
+  "line": 17
+ },
+ {
+  "word": "khilaf",
+  "start": 82.56,
+  "end": 82.998,
+  "f": 2477,
+  "line": 17
+ },
+ {
+  "word": "chali.",
+  "start": 83.018,
+  "end": 83.217,
+  "f": 2491,
+  "line": 17
+ },
+ {
+  "word": "Aaj",
+  "start": 83.732,
+  "end": 83.968,
+  "f": 2512,
+  "line": 18
+ },
+ {
+  "word": "jab",
+  "start": 83.988,
+  "end": 84.224,
+  "f": 2520,
+  "line": 18
+ },
+ {
+  "word": "America",
+  "start": 84.244,
+  "end": 84.795,
+  "f": 2527,
+  "line": 18
+ },
+ {
+  "word": "apna",
+  "start": 84.815,
+  "end": 85.129,
+  "f": 2544,
+  "line": 18
+ },
+ {
+  "word": "anthem",
+  "start": 85.149,
+  "end": 85.621,
+  "f": 2554,
+  "line": 18
+ },
+ {
+  "word": "gaata",
+  "start": 85.641,
+  "end": 86.034,
+  "f": 2569,
+  "line": 18
+ },
+ {
+  "word": "hai",
+  "start": 86.054,
+  "end": 86.29,
+  "f": 2582,
+  "line": 18
+ },
+ {
+  "word": "aur",
+  "start": 86.31,
+  "end": 86.546,
+  "f": 2589,
+  "line": 18
+ },
+ {
+  "word": "rockets",
+  "start": 86.566,
+  "end": 87.116,
+  "f": 2597,
+  "line": 18
+ },
+ {
+  "word": "ki",
+  "start": 87.136,
+  "end": 87.294,
+  "f": 2614,
+  "line": 18
+ },
+ {
+  "word": "roshni",
+  "start": 87.314,
+  "end": 87.785,
+  "f": 2619,
+  "line": 18
+ },
+ {
+  "word": "ki",
+  "start": 87.805,
+  "end": 87.963,
+  "f": 2634,
+  "line": 18
+ },
+ {
+  "word": "baat",
+  "start": 87.983,
+  "end": 88.297,
+  "f": 2639,
+  "line": 18
+ },
+ {
+  "word": "karta",
+  "start": 88.317,
+  "end": 88.71,
+  "f": 2650,
+  "line": 18
+ },
+ {
+  "word": "hai,",
+  "start": 88.73,
+  "end": 89.378,
+  "f": 2662,
+  "line": 18
+ },
+ {
+  "word": "to",
+  "start": 89.398,
+  "end": 89.555,
+  "f": 2682,
+  "line": 18
+ },
+ {
+  "word": "wo",
+  "start": 89.575,
+  "end": 89.733,
+  "f": 2687,
+  "line": 18
+ },
+ {
+  "word": "roshni",
+  "start": 89.753,
+  "end": 90.505,
+  "f": 2693,
+  "line": 18
+ },
+ {
+  "word": "Mysore",
+  "start": 90.525,
+  "end": 90.997,
+  "f": 2716,
+  "line": 18
+ },
+ {
+  "word": "ki",
+  "start": 91.017,
+  "end": 90.988,
+  "f": 2730,
+  "line": 18
+ },
+ {
+  "word": "hai.",
+  "start": 90.988,
+  "end": 91.108,
+  "f": 2730,
+  "line": 18
+ }
+]
